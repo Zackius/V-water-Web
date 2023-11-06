@@ -1,8 +1,12 @@
-import React from 'react'
+import Hero from "./Components/Hero/Hero"
+import Navbar from "./Components/Navbar/Navbar"
 
 const App = () => {
   return (
-    <div>Hello the start of the project!</div>
+    <div>
+      <Navbar />
+      <Hero/>
+    </div>
   )
 }
 
