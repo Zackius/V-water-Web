@@ -8,7 +8,8 @@ export default {
         "hero-image": "url('./assets/img/water-164964_1920.jpg')",
       },
       fontFamily: {
-        display: ["Satisfy", "cursive"],
+        satisfy: ["Satisfy", "cursive"],
+        quick: ['Quicksand', 'sans-serif']
       },
     },
   },
