@@ -32,7 +32,7 @@ const Services = () => {
            <img className=" w-[300px] h-[300px] md:w-[350px] shadow-md md:h-[350px]  lg:w-[500px] lg:h-[500px] rounded-full relative"  src={transition ? Water : Water2} onMouseEnter={trans}  onMouseLeave={transitions}  alt="johhnnt"/>
            </div>
          </div>
-         <div className="flex flex-col md:flex-row lg:flex-row bg-blue-100 md:rounded-l-full  lg:rounded-l-full shadow-xl p-4 m-3 justify-evenly">
+         <div className="flex flex-col md:flex-row lg:flex-row bg-green-100 md:rounded-l-full  lg:rounded-l-full shadow-xl p-4 m-3 justify-evenly">
                                <div className=" mx-auto md:w-[70%]  lg:w-[50%] m-6 lg:mt-0">
            <img className=" w-[300px] h-[300px] md:w-[350px] shadow-md md:h-[350px]  lg:w-[500px] lg:h-[500px] rounded-full relative"  src={onSet ? Irrigation : Irrigation2} onMouseEnter={handMouse} onMouseLeave={handMouseOff} alt="johhnnt"/>
            </div>
