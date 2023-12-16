@@ -13,7 +13,11 @@ const Services = () => {
   const transitions = () => setTrans(false)
 
      return (
+
        <div className="h-full p-16">
+         <div className="text-center font-bold text-2xl">
+        <h2>Our Services</h2>
+      </div>
                     <div className="flex flex-col md:flex-row lg:flex-row bg-blue-100 md:rounded-l-full lg:rounded-l-full shadow-xl p-4 m-3  ">
                                <div className="mx-auto">
            <img className=" w-[300px] h-[300px] md:w-[350px] shadow-md md:h-[350px]  lg:w-[500px] lg:h-[500px] rounded-full relative" src={isFocus ? Johnny : Water1} alt="johhnnt" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
