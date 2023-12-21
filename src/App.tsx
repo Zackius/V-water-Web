@@ -1,3 +1,4 @@
+import Gallery from "./Components/Gallery/Gallery"
 import Footer from "./Components/Hero/Footer/Footer."
 import Hero from "./Components/Hero/Hero"
 import Navbar from "./Components/Navbar/Navbar"
@@ -11,6 +12,7 @@ const App = () => {
       <Hero />
       <Services/>
       <Testimonials/>
+      <Gallery/>
       <Footer/>
     </div>
   )

@@ -1,4 +1,4 @@
-import { Johnny, Irrigation, Water, Water2, Water1, Irrigation2 } from "../../assets/img";
+import { Johnny, Irrigation, Water, Water2, Water1, drinking, Irrigation2 } from "../../assets/img";
 import {useState} from "react"
 const Services = () => {
   const [isFocus, setIsFocus] = useState(false)
@@ -33,7 +33,7 @@ const Services = () => {
              <p className="text-sm md:text-md lg:text-lg">Our dedication to advancing water quality extends to the development of cutting-edge purification technologies, such as advanced filtration systems and state-of-the-art water treatment processes. Aqua Pure is a trailblazer in the industry, constantly striving to improve access to clean drinking water through sustainable practices and eco-friendly solutions.</p>
            </div>
            <div className="mx-auto">
-           <img className=" w-[300px] h-[300px] md:w-[350px] shadow-md md:h-[350px]  lg:w-[500px] lg:h-[500px] rounded-full relative"  src={transition ? Water : Water2} onMouseEnter={trans}  onMouseLeave={transitions}  alt="jhhnnt"/>
+           <img className=" w-[300px] h-[300px] md:w-[350px] shadow-md md:h-[350px]  lg:w-[500px] lg:h-[500px] rounded-full relative"  src={transition ? Water : drinking} onMouseEnter={trans}  onMouseLeave={transitions}  alt="jhhnnt"/>
            </div>
          </div>
          <div className="flex flex-col md:flex-row lg:flex-row bg-green-100 md:rounded-l-full  lg:rounded-l-full shadow-xl p-4 m-3">
