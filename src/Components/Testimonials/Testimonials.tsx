@@ -1,14 +1,6 @@
 import { useEffect, useState } from "react"
 import { TestimonialsData } from "./data"
 
-interface Testimonial {
-  name: string;
-  company: string;
-  message: string;
-  image: any;
-}
-
-
 const Testimoniaals = () => {
   const [testimonails, setTestimonials] = useState(0)
 
