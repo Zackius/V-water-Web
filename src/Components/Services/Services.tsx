@@ -1,5 +1,5 @@
-import { Johnny, Irrigation, Water, Water2, Water1, Irrigation2 } from "../../assets/img";
-import Reveal from "react-awesome-reveal";
+
+import Reveal from "react-awesome-reveal";import { Johnny, Irrigation, Water, Water2, Water1, Irrigation2 } from "../../assets/img/index";
 import {useState} from "react"
 const Services = () => {
   const [isFocus, setIsFocus] = useState(false)
