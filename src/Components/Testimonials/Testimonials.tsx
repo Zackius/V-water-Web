@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import Reveal from "react-awesome-reveal";
 import { TestimonialsData } from "./data"
 
 const Testimoniaals = () => {
@@ -14,8 +15,10 @@ const Testimoniaals = () => {
 
   
   return (
-    <div className=" font-quick h-auto">
-      <div className="text-center font-bold md:text-2xl underline">
+
+<div className=" font-quick h-auto lg:h-[400px] bg-blue-100 lg:mx-auto">
+  <Reveal>
+  <div className="text-center pt-8 font-bold md:text-2xl underline">
         <h2>Client Testimonials</h2>
       </div>
     
@@ -26,13 +29,15 @@ const Testimoniaals = () => {
     <p className="p-4 text-center">
        <strong>~ </strong>{TestimonialsData[testimonails].name} <strong>~ </strong>
         </p>
-        <p className="p-4 text-sm md:text-md">
+        <p className="p-4 text-md md:text-md">
         {TestimonialsData[testimonails].message}
         </p>
 
       </div>
-       
+  </Reveal>       
     </div>
+
+    
   )
 }
 
