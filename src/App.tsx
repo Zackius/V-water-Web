@@ -7,7 +7,7 @@ import Testimonials from "./Components/Testimonials/Testimonials"
 
 const App = () => {
   return (
-    <div className="font-quick p-8" l>
+    <div className="font-quick p-8">
       <Navbar />
       <Hero />
       <Services/>

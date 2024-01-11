@@ -3,7 +3,7 @@ const Navbar = () => {
   const navItem = ["Home", "Services", "About", "Contact"]
   // const buttonItem = ["Sing In", "Sign Up"]
   return (
-    <div className=" md:flex-row sticky top-0  container flex  flex-wrap items-center p-4 bg-gray-100 mx-auto w-[100%] flex-col">
+    <div className=" md:flex-row lg:sticky top-0  container flex  flex-wrap items-center p-4 bg-gray-100 mx-auto w-[100%] flex-col">
       <a className=" font-bold flex  items-center mb-4 text-font-style  md:m-0 md:pr-[500px] font-satisfy">
         Aqua Wave
       </a>
