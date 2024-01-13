@@ -1,9 +1,11 @@
+import Link from "react-router-dom"
+import {AiOutlineFacebook, AiOutlineTwitter, AiOutlineInstagram} from "react-icons/ai"
 
 const Footer = () => {
 
     return (
       <div className='border-t-2 bg-blue-100 text-black'>
-        <div className='container p-6 mx-auto'>
+        <div className='contain mx-auto'>
         <div className='flex flex-col md:flex-row  justify-center gap-2 sm:flex-col-1'>
 
           <div>
@@ -13,21 +15,22 @@ const Footer = () => {
           <div> 
   
           </div>
-          {/* <div className='flex flex-col sm:text-sm  md:text-md'>
+          <div className='flex flex-col sm:text-sm  md:text-md'>
             <p className='text-2xl font-semibold'>Social Account</p>
             <div className='flex justify-evenly text-4xl'>
-              <Link to={'/'}>
-                <AiOutlineFacebook />
+              {/* <Link to={'/'}>
+                <AiOutlineFacebook/>
               </Link>
               <Link to={'/'}>
-              <AiOutlineTwitter />
+              <AiOutlineTwitter/>
               </Link>
               <Link to={'/'}>
               <AiOutlineInstagram/>
-              </Link>
+              </Link> */}
+              {/* <Link to={'/'}>Home</Link> */}
             </div>
           
-          </div> */}
+          </div>
         </div>
         </div>
         <div className='flexl text-center pt-4'>
