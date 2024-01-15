@@ -1,6 +1,3 @@
-import Link from "react-router-dom"
-import {AiOutlineFacebook, AiOutlineTwitter, AiOutlineInstagram} from "react-icons/ai"
-
 const Footer = () => {
 
     return (
