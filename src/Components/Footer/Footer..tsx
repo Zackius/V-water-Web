@@ -1,8 +1,8 @@
 const Footer = () => {
 
-    return (
-      <div className='border-t-2 bg-blue-100 text-black'>
-        <div className='contain mx-auto'>
+    return ( 
+      <div className='border-t-2 md:h-[300px] bg-blue-100 text-black'>
+        <div className='contain mx-auto md:pt-24'>
         <div className='flex flex-col md:flex-row  justify-center gap-2 sm:flex-col-1'>
 
           <div>

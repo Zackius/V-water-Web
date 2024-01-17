@@ -6,6 +6,7 @@ export default {
     extend: {
       backgroundImage: {
         "hero-image": "url('./assets/img/water-164964_1920.jpg')",
+        "hero2" : "url('./assets/img/maji.jpg')"
       },
       fontFamily: {
         satisfy: ["Satisfy", "cursive"],
