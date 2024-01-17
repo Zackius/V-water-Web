@@ -1,17 +1,17 @@
-
+import Hero from "../Hero/Hero"
 const Navbar = () => {
   const navItem = ["Home", "Services", "About", "Contact"]
   // const buttonItem = ["Sing In", "Sign Up"]
   return (
-    <div className=" md:flex-row lg:sticky top-0  container flex  flex-wrap items-center p-4 bg-gray-100 mx-auto w-[100%] flex-col">
+    <div className=" md:flex-row lg:sticky flex-wrap items-center h-auto p-4 w-[100%] flex-col bg-blue-200 bg-no-repeat bg-cover">
       <a className=" font-bold flex  items-center mb-4 text-font-style  md:m-0 md:pr-[500px] font-satisfy">
         Aqua Wave
       </a>
       <div className=" flex justify-center item-center text-base">
       {
-  navItem.map((item: string) => {
+  navItem.map((item: string, index) => {
     return (
-      <a className="mr-5">{ item}</a>
+      <a key={index} className="mr-5 hover:underline hover:text-lg">{ item}</a>
     )
   })
 } </div>
@@ -25,6 +25,7 @@ buttonItem.map((button: string) => {
   })
 }
       </div> */}
+<Hero/>
     </div>
   )
 }
